@@ -1,5 +1,6 @@
 --- 
 framework: mocha
+version: 1.0.0
 postMerge: 
   pattern: 
     - "test/**/*.spec.js"
@@ -12,3 +13,4 @@ preMerge:
 preRun: 
   command: 
     - npm ci
+
